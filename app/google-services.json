@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "230299689370",
+    "project_id": "citiesinfo-9fb67",
+    "storage_bucket": "citiesinfo-9fb67.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:230299689370:android:28437e3d7bf5c1ff4b1a23",
+        "android_client_info": {
+          "package_name": "com.meetozan.cityinfo"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "230299689370-m6o2amii7omqupnel4ta1fdnkhdrpdhp.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCZHwFEdHTBKArhWGy6gcblAlzV1t8zzeg"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "230299689370-m6o2amii7omqupnel4ta1fdnkhdrpdhp.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
