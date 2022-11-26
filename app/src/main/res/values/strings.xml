@@ -1,4 +1,9 @@
 <resources>
     <string name="app_name">CityInfo</string>
     <string name="tr">TR</string>
+    <string name="plate_number">Plate Number:</string>
+    <string name="population">Population:</string>
+    <string name="city_major">City Major:</string>
+    <string name="famous_food">Famous Food:</string>
+    <string name="region">Region:</string>
 </resources>

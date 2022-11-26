@@ -11,6 +11,7 @@
     </data>
 
     <androidx.cardview.widget.CardView
+        android:id="@+id/cardCity"
         android:layout_margin="5dp"
         android:padding="10dp"
         android:layout_width="match_parent"
@@ -63,18 +64,15 @@
 
                 <TextView
                     android:id="@+id/textView"
-                    android:layout_width="30dp"
+                    android:layout_width="36dp"
                     android:layout_height="30dp"
-                    android:layout_marginHorizontal="8dp"
+                    android:layout_marginHorizontal="2dp"
                     android:layout_marginVertical="45dp"
                     android:text="@string/tr"
                     android:textStyle="bold"
                     android:textColor="@color/cardview_light_background"
                     android:textSize="24sp" />
             </LinearLayout>
-
-
-
         </androidx.constraintlayout.widget.ConstraintLayout>
     </androidx.cardview.widget.CardView>
 </layout>
