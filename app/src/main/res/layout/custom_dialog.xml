@@ -5,7 +5,7 @@
     android:layout_width="match_parent"
     android:layout_height="400dp"
     android:layout_marginHorizontal="20dp"
-    android:background="#0F000000">
+    android:background="@drawable/dialog_bg">
 
     <TextView
         android:id="@+id/alertName"

@@ -2,6 +2,8 @@ package com.meetozan.cityinfo
 
 import android.app.AlertDialog
 import android.content.Context
+import android.graphics.Color
+import android.graphics.drawable.ColorDrawable
 import android.view.LayoutInflater
 import android.view.ViewGroup
 import android.widget.ImageView
@@ -33,6 +35,7 @@ class MainAdapter(private val cityList: List<City>, private val context: Context
             mContext = context
             val dialog = LayoutInflater.from(mContext).inflate(R.layout.custom_dialog, null)
             val builder = AlertDialog.Builder(mContext).setView(dialog).show()
+            builder.window?.setBackgroundDrawable(ColorDrawable(Color.TRANSPARENT))
             builder.setCancelable(true)
 
             val txtName = dialog.findViewById<TextView>(R.id.alertName)
