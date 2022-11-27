@@ -6,4 +6,15 @@
     <string name="city_major">City Major:</string>
     <string name="famous_food">Famous Food:</string>
     <string name="region">Region:</string>
+    <string name="cities_amp_infos"><![CDATA[Cities&Infos]]></string>
+    <string name="select_region">Select Region</string>
+    <string-array name="region_array">
+        <item>Marmara></item>
+        <item>Aegean></item>
+        <item>Central Anatolia></item>
+        <item>Black Sea></item>
+        <item>Mediterranean></item>
+        <item>Eastern Anatolia></item>
+        <item>South Eastern Anatolia></item>
+    </string-array>
 </resources>

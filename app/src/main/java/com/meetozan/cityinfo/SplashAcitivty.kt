@@ -7,8 +7,8 @@ import android.os.Handler
 
 class SplashAcitivty : AppCompatActivity() {
 
-    companion object{
-        const val ANIMATION_TIME: Long = 6000
+    companion object {
+        const val ANIMATION_TIME: Long = 2100
     }
 
     override fun onCreate(savedInstanceState: Bundle?) {

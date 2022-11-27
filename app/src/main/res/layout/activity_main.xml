@@ -16,6 +16,17 @@
         app:titleMarginStart="190dp"
         app:titleTextColor="@color/white"/>
 
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="@string/cities_amp_infos"
+        android:textSize="48sp"
+        android:textStyle="bold"
+        android:textColor="@color/black"
+        android:textAlignment="center"
+        android:background="@color/cardview_shadow_start_color"/>
+
+
     <androidx.recyclerview.widget.RecyclerView
         android:id="@+id/mainRv"
         android:layout_width="match_parent"
