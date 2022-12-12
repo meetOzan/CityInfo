@@ -17,7 +17,6 @@ class MainAdapter(private val cityList: List<City>, private val context: Context
     private lateinit var mContext: Context
 
     class ViewHolder(binding: CityCardBinding) : RecyclerView.ViewHolder(binding.root) {
-
         val cityBinding: CityCardBinding = binding
     }
 
